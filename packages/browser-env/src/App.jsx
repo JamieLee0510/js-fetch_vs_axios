@@ -1,5 +1,4 @@
-import { initFetch } from "demo-fetch";
-import { createInstance } from "demo-fetch";
+import { initFetch, createInstance } from "demo-fetch";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 

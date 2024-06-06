@@ -1,11 +1,11 @@
 async function getDefaultAdapter() {
     if (typeof XMLHttpRequest !== "undefined") {
         // for browser, using XHR adapter
-        const { xhrAdapter } = await import("./xhrAdapter");
+        const { xhrAdapter } = await import("./xhrAdapter.js");
 
         return xhrAdapter;
     } else if (typeof process !== "undefined") {
-        const { httpAdpater } = await import("./httpAdpater");
+        const { httpAdpater } = await import("./httpAdpater.js");
 
         return httpAdpater;
     }

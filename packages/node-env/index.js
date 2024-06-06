@@ -13,7 +13,7 @@ const getDataFromFetch = async () => {
 };
 
 const getDataFromAxiosAlike = async () => {
-    const axiosInstance = createInstance({
+    const axiosInstance = await createInstance({
         headers: { "Content-Type": "application/json" },
     });
 
