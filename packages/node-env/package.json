@@ -1,0 +1,16 @@
+{
+    "name": "node-env",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "demo_node_env": "node index.js"
+    },
+    "dependencies": {
+        "demo-fetch": "workspace:*"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
